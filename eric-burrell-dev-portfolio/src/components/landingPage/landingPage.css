@@ -287,3 +287,100 @@
 .project-thumbnail:hover {
   border: 3px solid #8888;
 }
+
+/* TECH STACKS */
+.tech-stacks {
+  height: auto;
+  min-height: 300px;
+  width: 100%;
+  padding-bottom: 50px;
+  display: block;
+  position: relative;
+  background-color: #ceb888;
+}
+
+.tech-lists {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tech-stacks h1 {
+  max-width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 60px;
+  padding-left: calc(10% - 20px);
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  text-align: start;
+  font-size: 32px;
+  text-shadow: rgba(0, 0, 0, 0.3) 2px 2px 5px;
+}
+
+.tech-stacks p {
+  max-width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0;
+  box-sizing: border-box;
+  text-align: left;
+  text-shadow: rgba(0, 0, 0, 0.3) 2px 2px 5px;
+  font-size: 22px;
+  line-height: 1.6;
+}
+
+.tech-stacks .more-link {
+  padding-bottom: 40px;
+}
+
+.tech-stacks .more-link b {
+  color: white;
+}
+
+.tech-stacks a {
+  color: #000;
+}
+
+.tech-lists > div {
+  flex: 1;
+  min-width: 200px;
+  margin: 0 20px;
+}
+
+.tech-lists h2 {
+  font-size: 28px;
+  text-align: start;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  text-shadow: rgba(0, 0, 0, 0.3) 2px 2px 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 20px;
+  margin: 10px 0;
+  position: relative;
+  text-align: start;
+  padding-left: 75px;
+  text-shadow: rgba(0, 0, 0, 0.2) 1px 1px 3px;
+}
+
+li::before {
+  content: "✔"; /* Bullet icon */
+  position: absolute;
+  left: 20px;
+  color: #000;
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  .tech-lists {
+    flex-direction: column;
+  }
+}

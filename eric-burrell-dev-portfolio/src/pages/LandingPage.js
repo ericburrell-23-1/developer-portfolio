@@ -3,6 +3,7 @@ import WelcomeHeader from "../components/landingPage/WelcomeHeader";
 import DropdownMenu from "../components/landingPage/DropdownMenu";
 import MyStory from "../components/landingPage/MyStory";
 import Projects from "../components/landingPage/Projects";
+import TechStacks from "../components/landingPage/TechStacks";
 
 const LandingPage = () => {
   return (
@@ -11,6 +12,7 @@ const LandingPage = () => {
       <DropdownMenu />
       <MyStory />
       <Projects />
+      <TechStacks />
     </div>
   );
 };
