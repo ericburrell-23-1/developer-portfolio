@@ -1,3 +1,13 @@
 .landing-page {
   display: flex;
 }
+
+.my-story-page {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.3) 2px 2px 5px;
+  background-color: #333333cc;
+  height: auto;
+  min-height: 100vh;
+}

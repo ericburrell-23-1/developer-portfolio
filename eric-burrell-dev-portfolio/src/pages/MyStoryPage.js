@@ -1,9 +1,15 @@
 import React from "react";
+import Header from "../components/myStoryPage/Header";
+import Education from "../components/myStoryPage/Education";
+import WorkHistory from "../components/myStoryPage/WorkHistory";
+import "./pages.css";
 
 const MyStoryPage = () => {
   return (
-    <div>
-      <h1>My Story</h1>
+    <div className="my-story-page">
+      <Header />
+      <Education />
+      <WorkHistory />
     </div>
   );
 };

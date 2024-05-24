@@ -1,0 +1,111 @@
+.header {
+  color: white;
+  padding-top: 40px;
+  padding-left: 10%;
+  text-align: start;
+}
+
+.section-header {
+  text-align: start;
+  margin-top: 0;
+}
+
+/* EDUCATION */
+.education {
+  position: relative;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.education::after {
+  content: "";
+  position: absolute;
+  left: 5%;
+  bottom: -20px;
+  height: 1px;
+  width: 90%;
+  background-color: #0000;
+  box-shadow: 0px 20px 7px 1px black;
+  z-index: 1001;
+}
+
+.education span {
+  color: rgb(206, 184, 136);
+  font-weight: 600;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.grad-pic-wrapper {
+  width: 40%;
+}
+
+.grad-pic {
+  width: 90%;
+  object-fit: cover;
+  aspect-ratio: 0.85;
+}
+
+.education-text {
+  width: 60%;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* WORK HISTORY */
+.work-history {
+  position: relative;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.work-history::after {
+  content: "";
+  position: absolute;
+  left: 5%;
+  bottom: -20px;
+  height: 1px;
+  width: 90%;
+  background-color: #0000;
+  box-shadow: 0px 20px 7px 1px black;
+  z-index: 1002;
+}
+
+.work-history-text {
+  width: 75%;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.work-history a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 600;
+  cursor: pointer !important;
+}
+
+.controls-video-wrapper {
+  width: 25%;
+  padding-top: 25px;
+}
+
+.controls-video-wrapper label {
+  width: 184px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.controls-video {
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 90%;
+}
