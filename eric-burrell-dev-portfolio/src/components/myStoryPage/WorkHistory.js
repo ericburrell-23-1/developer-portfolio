@@ -16,7 +16,7 @@ const WorkHistory = () => {
             >
               B&R Industrial Automation
             </a>
-            . I was set to start a career in sales as a <i>Sales Engeineer</i>,
+            . I was set to start a career in sales as a <i>Sales Engineer</i>,
             but for the first year worked as a <i>Controls Engineer</i> in order
             to become familiar with the technological architecture. <br />
             <br /> This included a full, three-month training course, conducted
@@ -36,9 +36,8 @@ const WorkHistory = () => {
           </p>
           <h3>This was my first professional coding experience.</h3>
           <p>
-            Working at B&R was very much so a software development role A lot of
-            people hear "controls engineer" and don't exactly understand what
-            that entailed.{" "}
+            A lot of people hear "controls engineer" and don't exactly
+            understand what that entailed.{" "}
             <b>Working at B&R was very much so a software development role</b>.
             This included:
           </p>
@@ -68,8 +67,8 @@ const WorkHistory = () => {
             Your browser does not support the video tag.
           </video>
           <label htmlFor="controls-video">
-            A sample of an automated cutter: motion control that I programmed,
-            with a custom HMI (UI) that I built
+            A sample of an automated cutter: motion control that I programmed
+            (in C), with a custom HMI (UI) that I built
           </label>
         </div>
       </div>
