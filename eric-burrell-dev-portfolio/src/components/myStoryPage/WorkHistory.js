@@ -6,7 +6,7 @@ const WorkHistory = () => {
     <div className="work-history">
       <div className="content-wrapper">
         <div className="work-history-text">
-          <h2 className="work-history-header">After Graduation...</h2>
+          <h2>After Graduation...</h2>
           <p>
             I took a job with a company called{" "}
             <a
@@ -52,7 +52,7 @@ const WorkHistory = () => {
             Some people picture Ladder programming and electrical engineering.
             This was certainly part of the job, but largely my experience was
             writing code in text-based languages to control equipment vital to
-            the customer's business operations.
+            customers' business operations.
           </p>
         </div>
         <div className="controls-video-wrapper">

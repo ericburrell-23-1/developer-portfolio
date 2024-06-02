@@ -4,7 +4,7 @@ import "./myStory.css";
 const Header = () => {
   return (
     <div className="header">
-      <h1>How I became a developer</h1>
+      <h1>How I Became a Developer</h1>
     </div>
   );
 };

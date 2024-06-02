@@ -49,6 +49,7 @@
   width: 90%;
   object-fit: cover;
   aspect-ratio: 0.85;
+  border-radius: 12px;
 }
 
 .education-text {
@@ -116,9 +117,10 @@
 }
 
 .controls-video {
-  padding-left: 5%;
-  padding-right: 5%;
   width: 90%;
+  border-radius: 12px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /*  SELF-GUIDED LEARNING */
@@ -156,8 +158,9 @@
 }
 
 .sgl-pic {
-  padding-left: 5%;
-  padding-right: 5%;
+  border-radius: 12px;
+  margin-left: 5%;
+  margin-right: 5%;
   width: 90%;
 }
 
@@ -181,4 +184,42 @@
 
 .more-link a:hover span {
   transform: translateX(3px);
+}
+
+/* PROFESSIONAL EXPERIENCE */
+.prof-exp {
+  position: relative;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pe-text {
+  width: 65%;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1.4;
+}
+
+.dnm-image-wrapper {
+  width: 35%;
+  padding-top: 25px;
+}
+
+.dnm-image {
+  border-radius: 12px;
+  border: 3px solid #0000;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  object-fit: cover;
+  aspect-ratio: 1.2;
+  transition: border 0.3s ease-out;
+  cursor: pointer;
+}
+
+.dnm-image:hover {
+  border: 3px solid #a00a;
 }
