@@ -27,7 +27,7 @@ const SelfGuidedLearning = () => {
             - I wanted to learn how to build iOS apps. I took my first course on
             Udemy learning Swift and SwiftUI (and you can see some of the apps I
             built{" "}
-            <span className="more-link">
+            <span className="ms-more-link">
               <a href="/swift-ui">
                 here<span>&rarr;</span>
               </a>

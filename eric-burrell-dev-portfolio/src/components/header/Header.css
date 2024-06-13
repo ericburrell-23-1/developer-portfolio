@@ -1,0 +1,90 @@
+.header {
+  position: relative;
+  width: 90vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.header img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500%;
+  height: 500%;
+  object-fit: none;
+  background-position: center;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  opacity: 0;
+  z-index: 1;
+}
+
+.animate {
+  animation: rotateBackground 2s ease-in-out forwards;
+}
+
+.animate0_5 {
+  animation: rotateBackground0_5 2s ease-in-out forwards;
+}
+
+@keyframes rotateBackground {
+  0% {
+    transform: translate(-50%, -50%) rotate(-75deg) scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(1.2);
+    opacity: 1;
+  }
+}
+
+@keyframes rotateBackground0_5 {
+  0% {
+    transform: translate(-50%, -50%) rotate(-75deg) scale(0.4);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.6);
+    opacity: 1;
+  }
+}
+
+.header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.header-title {
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  z-index: 3;
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+  animation-delay: 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

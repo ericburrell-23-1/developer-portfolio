@@ -164,7 +164,7 @@
   width: 90%;
 }
 
-.more-link a {
+.ms-more-link a {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
@@ -172,17 +172,17 @@
   transition: color 0.3s ease-in-out;
 }
 
-.more-link a:hover {
+.ms-more-link a:hover {
   color: #0008;
 }
 
-.more-link a span {
+.ms-more-link a span {
   display: inline-block;
   margin-left: 5px;
   transition: transform 0.3s ease-in-out;
 }
 
-.more-link a:hover span {
+.ms-more-link a:hover span {
   transform: translateX(3px);
 }
 

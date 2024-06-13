@@ -1,5 +1,6 @@
 .landing-page {
   display: flex;
+  flex-direction: column;
 }
 
 .my-story-page {
@@ -8,6 +9,18 @@
   color: white;
   text-shadow: rgba(0, 0, 0, 0.3) 2px 2px 5px;
   background-color: #333333cc;
+  height: auto;
+  min-height: 100vh;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.projects-page {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.3) 2px 2px 5px;
+  background-color: #fff;
   height: auto;
   min-height: 100vh;
 }

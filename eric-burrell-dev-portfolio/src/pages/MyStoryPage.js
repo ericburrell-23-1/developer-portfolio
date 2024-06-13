@@ -1,5 +1,6 @@
 import React from "react";
-import Header from "../components/myStoryPage/Header";
+import DropdownMenu from "../components/dropdownMenu/DropdownMenu";
+import Header from "../components/header/Header";
 import Education from "../components/myStoryPage/Education";
 import WorkHistory from "../components/myStoryPage/WorkHistory";
 import SelfGuidedLearning from "../components/myStoryPage/SelfGuidedLearning";
@@ -9,7 +10,12 @@ import "./pages.css";
 const MyStoryPage = () => {
   return (
     <div className="my-story-page">
-      <Header />
+      <Header
+        title="How I Became A Developer"
+        background={"red-and-black.png"}
+        BGSize="animate0_5"
+      />
+      <DropdownMenu />
       <Education />
       <WorkHistory />
       <SelfGuidedLearning />
