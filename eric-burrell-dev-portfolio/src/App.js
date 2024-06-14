@@ -3,6 +3,7 @@ import LandingPage from "./pages/LandingPage";
 import MyStoryPage from "./pages/MyStoryPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import TechPage from "./pages/TechPage";
+import ProjectRoutes from "./pages/projects/ProjectRoutes";
 import "./App.css";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path="/my-story" element={<MyStoryPage />} />
           <Route path="/all-projects" element={<ProjectsPage />} />
           <Route path="/all-tech" element={<TechPage />} />
+          <Route path="/projects/*" element={<ProjectRoutes />}></Route>
         </Routes>
       </Router>
     </div>

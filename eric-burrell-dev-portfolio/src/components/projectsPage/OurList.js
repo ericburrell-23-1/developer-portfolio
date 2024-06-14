@@ -1,4 +1,5 @@
 import React from "react";
+import { OUR_LIST_LINK } from "../../utilities/constants/projectLinks";
 
 const OurList = () => {
   return (
@@ -12,7 +13,7 @@ const OurList = () => {
             className="proj-thumbnail"
             src="order-counter-thumbnail.png"
             alt="Screenshot of project main page"
-            onClick={() => window.open("https://google.com", "_blank")}
+            onClick={() => window.open(OUR_LIST_LINK, "_blank")}
           />
         </div>
         <p className="proj-description">
@@ -20,7 +21,7 @@ const OurList = () => {
           had in their <u>Notes</u> Apps) and extrapolated it into a shared list
           that's easier to use, specifically for your dinner party.{" "}
           <span className="proj-more-link">
-            <a href="/">
+            <a href="/projects/our-list">
               Read more, then try it out <span>&rarr;</span>
             </a>
           </span>

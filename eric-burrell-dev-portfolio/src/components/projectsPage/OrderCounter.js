@@ -1,4 +1,5 @@
 import React from "react";
+import { ORDER_COUNTER_LINK } from "../../utilities/constants/projectLinks";
 import "./projects.css";
 
 const OrderCounter = () => {
@@ -24,12 +25,7 @@ const OrderCounter = () => {
             className="proj-thumbnail"
             src="order-counter-thumbnail.png"
             alt="Screenshot of project main page"
-            onClick={() =>
-              window.open(
-                "https://dm-order-calculator-d12d309fb0aa.herokuapp.com/",
-                "_blank"
-              )
-            }
+            onClick={() => window.open(ORDER_COUNTER_LINK, "_blank")}
           />
         </div>
       </div>

@@ -1,10 +1,11 @@
 import React from "react";
+import { ORDERS_DASHBOARD_LINK } from "../../utilities/constants/projectLinks";
 import "./projects.css";
 
 const OrdersDashboard = () => {
   return (
-    <div className="proj-container">
-      <h2 className="proj-title">D&M Order Entry Terminal</h2>
+    <div className="proj-container" style={{ "padding-top": "50px" }}>
+      <h2 className="proj-title">D&M Orders Dashboard</h2>
       <div className="proj-content">
         <p className="proj-description">
           When I started at D&M, every walk-in customer was helped by writing
@@ -16,8 +17,8 @@ const OrdersDashboard = () => {
           <br />
           Read more about the{" "}
           <span className="proj-more-link">
-            <a href="/">
-              order tracker <span>&rarr;</span>
+            <a href="/projects/orders-dashboard">
+              orders dashboard <span>&rarr;</span>
             </a>
           </span>
         </p>
@@ -26,7 +27,7 @@ const OrdersDashboard = () => {
             className="proj-thumbnail"
             src="orders-dashboard-thumbnail.png"
             alt="Screenshot of project main page"
-            onClick={() => window.open("https://google.com", "_blank")}
+            onClick={() => window.open(ORDERS_DASHBOARD_LINK, "_blank")}
           />
         </div>
       </div>

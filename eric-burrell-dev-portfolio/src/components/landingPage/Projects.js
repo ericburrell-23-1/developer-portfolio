@@ -1,5 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import {
+  ORDERS_DASHBOARD_LINK,
+  OUR_LIST_LINK,
+} from "../../utilities/constants/projectLinks";
 import "./landingPage.css";
 
 const Projects = () => {
@@ -24,7 +28,7 @@ const Projects = () => {
         </a>
       </p>
       <div className="project-container">
-        <h2 className="project-title">D&M Order Entry Terminal</h2>
+        <h2 className="project-title">D&M Orders Dashboard</h2>
         <div className="project-content">
           <p className="project-description">
             When I started at D&M, every walk-in customer was helped by writing
@@ -36,8 +40,8 @@ const Projects = () => {
             <br />
             Read more about the{" "}
             <span className="more-link">
-              <a href="/">
-                order tracker <span>&rarr;</span>
+              <a href="/projects/orders-dashboard">
+                orders dashboard <span>&rarr;</span>
               </a>
             </span>
           </p>
@@ -46,7 +50,7 @@ const Projects = () => {
               className="project-thumbnail"
               src="orders-dashboard-thumbnail.png"
               alt="Screenshot of project main page"
-              onClick={() => redirectToProject("https://google.com")}
+              onClick={() => redirectToProject(ORDERS_DASHBOARD_LINK)}
             />
           </div>
         </div>
@@ -61,7 +65,7 @@ const Projects = () => {
               className="project-thumbnail"
               src="order-counter-thumbnail.png"
               alt="Screenshot of project main page"
-              onClick={() => redirectToProject("https://google.com")}
+              onClick={() => redirectToProject(OUR_LIST_LINK)}
             />
           </div>
           <p className="project-description">
@@ -70,7 +74,7 @@ const Projects = () => {
             shared list that's easier to use, specifically for your dinner
             party.{" "}
             <span className="more-link">
-              <a href="/">
+              <a href="/projects/our-list">
                 Read more, then try it out <span>&rarr;</span>
               </a>
             </span>
