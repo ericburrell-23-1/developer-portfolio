@@ -99,8 +99,8 @@
   margin-left: 15%;
   margin-right: 15%;
   box-sizing: border-box;
-  text-align: end;
-  font-size: 22px;
+  text-align: start;
+  font-size: 20px;
   line-height: 1.6;
 }
 
@@ -152,4 +152,106 @@
   text-align: left;
   font-size: 22px;
   line-height: 1.6;
+}
+
+/* PROJECT DESCRIPTION */
+.project-descr {
+  position: relative;
+  padding: 50px 0;
+  margin: 0;
+  min-height: 40vh;
+  width: 100%;
+  background-color: var(--project-background-color-2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: var(--project-contrast-color);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.project-descr h2 {
+  color: var(--project-primary-color);
+  text-shadow: 1px 1px 5px var(--project-opaque-secondary-color);
+  width: 100%;
+  margin-bottom: 20px;
+  padding-left: calc(10% + 20px);
+  padding-right: calc(10% + 20px);
+  box-sizing: border-box;
+  text-align: end;
+  font-size: 27px;
+}
+
+.project-descr h3 {
+  color: var(--project-secondary-color);
+  text-shadow: 1px 1px 5px var(--project-opaque-secondary-color);
+  width: 100%;
+  margin-bottom: 10px;
+  padding-left: calc(10% + 20px);
+  padding-right: calc(10% + 20px);
+  box-sizing: border-box;
+  text-align: start;
+  font-size: 22px;
+}
+
+.project-descr p {
+  color: var(--project-contrast-color);
+  text-shadow: var(--project-opaque-secondary-color) 2px 2px 5px;
+  max-width: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
+  box-sizing: border-box;
+  text-align: start;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.project-descr .info-message {
+  margin-left: 10%;
+  margin-right: auto;
+  text-align: start;
+  font-size: 14px;
+}
+
+/* GITHUB LINK */
+.source-code {
+  background: var(--project-background-color-1);
+  padding: 50px 0;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: var(--project-detail-color);
+  text-align: center;
+}
+
+.source-code h2 {
+  color: var(--project-primary-color);
+  text-shadow: 1px 1px 5px var(--project-opaque-secondary-color);
+  margin-bottom: 20px;
+  font-size: 27px;
+}
+
+.source-code p {
+  color: var(--project-detail-color);
+  text-shadow: var(--project-opaque-secondary-color) 1px 1px 3px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.source-code a {
+  color: var(--project-primary-color);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid var(--project-primary-color);
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.source-code a:hover {
+  background-color: var(--project-primary-color);
+  color: var(--project-detail-color);
 }

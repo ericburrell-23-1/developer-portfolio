@@ -3,7 +3,7 @@ import "./project.css";
 
 const Description = ({ whatItDoes, deployment, howToUse }) => {
   return (
-    <div className="project-background">
+    <div className="project-descr">
       <h2>Project Info</h2>
       <h3>What It Does</h3>
       <p>{whatItDoes}</p>
@@ -11,6 +11,12 @@ const Description = ({ whatItDoes, deployment, howToUse }) => {
       <p>{deployment}</p>
       <h3>How To Use It</h3>
       <p>{howToUse}</p>
+      <p className="info-message">
+        <i>
+          * Click on the thumbnail image at the top of this page to navigate to
+          the project
+        </i>
+      </p>
     </div>
   );
 };

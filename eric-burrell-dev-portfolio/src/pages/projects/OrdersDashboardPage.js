@@ -31,13 +31,28 @@ const OrdersDashboardPage = () => {
       <ProjectBackground
         text={
           <>
-            So here is what happened Lorem Ipsum and then some stuff and synergy
-            software made a thing it did a thing and it went boom and now it
-            works and it does a thing that the thing needed it to do. It is
-            great you should do it.
+            When I first started at D&M Imaging, a photo-printing lab, I noticed
+            a need to automate quite a few processes; we had several different
+            ordering softwares that would move order data and images to
+            different locations in the file system, and usually not where they
+            needed to be in order to move them to the printers. So, with the
+            hopes of some day fully automating the order process - such that ALL
+            orders received could be sent to the printers with a single click -
+            I began building the Orders Dashboard.
             <br />
             <br />
-            This is a new line.
+            The Dashboard needed to be both an order entry terminal for
+            customers to use in-store, and a way for employees to view and
+            manage the status of all existing orders. As an old-school company,
+            everything before this was done on paper - the only way to check the
+            status of an order was to find the paperwork that was created at the
+            time of receiving the order and reading whatever hand-written notes
+            had been scribbled on it. If the paperwork was lost or reprinted,
+            confusion could easily ensue. And getting orders from customers who
+            came into the store was a mess as well. Imagine an employee fumbling
+            around with a flash drive, and scrambling to find scrap paper to
+            write down the customer's contact info and which size they wanted
+            their images printed. A digital solution was desperately needed.
           </>
         }
       />
